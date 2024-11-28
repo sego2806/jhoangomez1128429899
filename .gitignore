@@ -89,6 +89,13 @@ yarn-error.log
 .vscode/
 .history/
 
+# Visual Studio
+.vs/
+
+# Personal Files
+id_rsa.txt
+nuget.config
+
 # Optional
 # If using ReSharper or similar productivity tools, uncomment the following lines
 # to ignore their settings and caches:
@@ -97,3 +104,4 @@ yarn-error.log
 # JetBrains Rider
 # .idea/
 # RiderProjects/
+
