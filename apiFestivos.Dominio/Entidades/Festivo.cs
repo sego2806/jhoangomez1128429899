@@ -23,3 +23,7 @@ namespace apiFestivos.Dominio.Entidades
 
     }
 }
+
+
+
+// Hago este Comentario en el nucleo del proyecto para probar l flujo de CI/CD configurado en el archivo YAML
