@@ -1,19 +1,17 @@
 # API Festivos - Pruebas Unitarias con xUnit
 
 ## Descripción
-Proyecto de API de días festivos desarrollado en C# con .NET 8, siguiendo una arquitectura por capas. Implementado como parte de la evaluación parcial en la asignatura de Administración de Sistemas de Información.
+Proyecto de API de días festivos desarrollado en C# con .NET 8, siguiendo una arquitectura por capas. Implementado como parte de la evaluación final de Aplicaciones y servicios web.
 
-## Integrantes del Equipo
-- Luis Guillermo González
-- Omar Yesid Fonseca Montes
+## Estudiante
 - Jhoan Sebastián Gómez Valderrama
-- Juan David Machado Mosquera
+
 
 ## Detalles del Proyecto
 - **Universidad:** Instituto Tecnológico Metropolitano (ITM)
-- **Asignatura:** Administración de Sistemas de Información
-- **Profesor:** Fray Leon Osorio
-- **Tipo de Evaluación:** Parcial
+- **Asignatura:** Aplicacion y Servicios Web
+- **Profesor:** Jonathan Sánchez Giraldo
+- **Tipo de Evaluación:** Parcial 20% final
 
 ## Estructura del Proyecto
 ```
@@ -75,4 +73,4 @@ El proyecto utiliza xUnit como framework de pruebas, implementando:
 - Pruebas para cálculos de fechas móviles
 
 ## Contribuciones
-Este proyecto fue desarrollado como parte de una evaluación académica por los estudiantes mencionados anteriormente.
+Este proyecto fue desarrollado como parte de una evaluación académica Aplicaciones y Servicios Web.
