@@ -1,13 +1,13 @@
-# Etapa 1: Construcción de la aplicación
+
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
-# Establece el directorio de trabajo en /src
+
 WORKDIR /src
 
-# Copia los archivos del proyecto en el contenedor
+
 COPY . .
 
-# Restaura las dependencias del proyecto (nuget)
+
 RUN dotnet restore
 
 # Publica la aplicación en modo Release en la carpeta /app
