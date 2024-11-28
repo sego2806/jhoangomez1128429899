@@ -7,7 +7,7 @@ WORKDIR /src
 
 COPY . .
 
-
+# agregando comentario para probar  activar el flujo de CI/CD configurado en el archivo YAML
 RUN dotnet restore
 
 # Publica la aplicación en modo Release en la carpeta /app
