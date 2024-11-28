@@ -1,0 +1,38 @@
+
+name: CI/CD for .NET Project
+
+on:
+  push:
+    branches:
+      - master # Activar el flujo en la rama master
+  pull_request:
+    branches:
+      - master # Activar en pull requests hacia master
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Paso 1: Descargar el código del repositorio
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      # Paso 2: Configurar .NET
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.0 # Cambia la versión si tu proyecto usa otra
+
+      # Paso 3: Restaurar dependencias
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # Paso 4: Compilar el proyecto
+      - name: Build project
+        run: dotnet build --no-restore
+
+      # Paso 5: Ejecutar las pruebas
+      - name: Run tests
+        run: dotnet test --no-build --verbosity normal
+
